@@ -41,3 +41,30 @@ main{
     width: 269px;
     height: 471px;
 }
+
+#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+
+    img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.197);
+        display: flex;
+        box-sizing: border-box;
+        transition: transform 1s, border 1s;
+    }
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.471);
+    transform: translate(-3px, -2px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.362);
+    
+}
+
+
+
